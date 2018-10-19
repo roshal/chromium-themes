@@ -1,7 +1,10 @@
 {
 	"manifest_version": 2,
-	"name": "Theme",
+	"name": "theme",
 	"version": "1",
+	"icons": {
+		"16": "icons/16.png"
+	},
 	"theme": {
 		"colors": {
 			"frame": [51, 102, 153],
