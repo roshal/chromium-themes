@@ -7,6 +7,7 @@
 
 !/.gitignore
 
-!/key.pem
+/source.crx
+/source.pem
 
 /source/Cached Theme.pak
