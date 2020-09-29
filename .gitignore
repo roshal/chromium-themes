@@ -6,6 +6,8 @@
 !/.editorconfig
 !/.gitignore
 
+!/black/
 !/dark/
 !/docs/
 !/gray/
+!/white/
