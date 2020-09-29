@@ -1,13 +1,11 @@
 
 /*
 
-!/icons/
-!/notes/
-!/source/
+*/Cached Theme.pak
 
+!/.editorconfig
 !/.gitignore
 
-/source.crx
-/source.pem
-
-/source/Cached Theme.pak
+!/dark/
+!/docs/
+!/gray/
