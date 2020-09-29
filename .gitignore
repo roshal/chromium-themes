@@ -6,8 +6,10 @@
 !/.editorconfig
 !/.gitignore
 
-!/black/
-!/dark/
+!/color-a/
+!/color-b/
+!/color-c/
+!/color-d/
+!/color-e/
+!/color-f/
 !/docs/
-!/gray/
-!/white/
