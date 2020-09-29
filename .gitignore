@@ -6,10 +6,10 @@
 !/.editorconfig
 !/.gitignore
 
-!/color-a/
-!/color-b/
-!/color-c/
-!/color-d/
-!/color-e/
-!/color-f/
 !/docs/
+!/theme-color-a/
+!/theme-color-b/
+!/theme-color-c/
+!/theme-color-d/
+!/theme-color-e/
+!/theme-color-f/
