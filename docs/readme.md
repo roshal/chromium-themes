@@ -1,7 +1,7 @@
 
-## chromium-theme
+## chromium-themes
 
-dark and gray chromium theme
+dark and gray chromium themes
 
 ## links
 
