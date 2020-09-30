@@ -13,7 +13,7 @@
 			"background_tab_incognito": [204, 204, 204],
 			"background_tab_incognito_inactive": [204, 204, 204],
 			"bookmark_text": [102, 102, 102],
-			"button_background": [-1, -1, -1],
+			"button_background": [255, 0, 0],
 			"tab_background_text": [51, 51, 51],
 			"tab_background_text_inactive": [51, 51, 51],
 			"tab_background_text_incognito": [102, 102, 102],
