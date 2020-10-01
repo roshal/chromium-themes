@@ -1,17 +1,16 @@
 
 /*
 
-*/Cached Theme.pak
-
 !/.editorconfig
 !/.gitignore
 
 !/generate.js
 
 !/docs/
-!/theme-color-a/
-!/theme-color-b/
-!/theme-color-c/
-!/theme-color-d/
-!/theme-color-e/
-!/theme-color-f/
+
+!/theme-color-a/manifest.json
+!/theme-color-b/manifest.json
+!/theme-color-c/manifest.json
+!/theme-color-d/manifest.json
+!/theme-color-e/manifest.json
+!/theme-color-f/manifest.json
