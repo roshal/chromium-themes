@@ -4,10 +4,10 @@
 	"version": "1",
 	"theme": {
 		"colors": {
-			"frame": [102, 102, 102],
-			"frame_inactive": [51, 51, 51],
-			"frame_incognito": [102, 102, 102],
-			"frame_incognito_inactive": [51, 51, 51],
+			"frame": [51, 51, 51],
+			"frame_inactive": [0, 0, 0],
+			"frame_incognito": [51, 51, 51],
+			"frame_incognito_inactive": [0, 0, 0],
 			"background_tab": [51, 51, 51],
 			"background_tab_inactive": [51, 51, 51],
 			"background_tab_incognito": [51, 51, 51],
