@@ -6,6 +6,8 @@
 !/.editorconfig
 !/.gitignore
 
+!/generate.js
+
 !/docs/
 !/theme-color-a/
 !/theme-color-b/
