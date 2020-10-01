@@ -16,10 +16,10 @@ const generate = (key, options) => ({
 	version: '1',
 	theme: {
 		colors: {
-			frame: map(options.frame_onactive),
-			frame_inactive: map(options.frame_inactive),
-			frame_incognito: map(options.frame_onactive),
-			frame_incognito_inactive: map(options.frame_inactive),
+			frame: map(options.frame_active),
+			frame_inactive: map(options.frame_hidden),
+			frame_incognito: map(options.frame_active),
+			frame_incognito_inactive: map(options.frame_hidden),
 			background_tab: map(options.tabs_background),
 			background_tab_inactive: map(options.tabs_inactive_background),
 			background_tab_incognito: map(options.tabs_background),
@@ -43,11 +43,11 @@ const generate = (key, options) => ({
 		},
 		tints: {
 			buttons: treble(-1),
-			frame: [0, 1, 0.5],
-			frame_inactive: [0, 1, 0.5],
-			frame_incognito: [0, 1, 0.5],
-			frame_incognito_inactive: [0, 1, 0.5],
-			background_tab: [0, 1, 0.5],
+			frame: treble(0, 1, 0.5),
+			frame_inactive: treble(0, 1, 0.5),
+			frame_incognito: treble(0, 1, 0.5),
+			frame_incognito_inactive: treble(0, 1, 0.5),
+			background_tab: treble(0, 1, 0.5),
 			'': treble(0),
 		},
 		'': null,
@@ -69,8 +69,8 @@ keys[05] = 'tabs_foreground'
 keys[06] = 'tabs_inactive_background'
 keys[07] = 'tabs_inactive_foreground'
 
-keys[08] = 'frame_onactive'
-keys[09] = 'frame_inactive'
+keys[08] = 'frame_active'
+keys[09] = 'frame_hidden'
 
 keys[10] = 'ntp_background'
 keys[11] = 'ntp_foreground'
