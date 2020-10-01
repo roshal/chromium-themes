@@ -5,6 +5,7 @@
 !/.gitignore
 
 !/generate.js
+!/package.json
 
 !/docs/
 
