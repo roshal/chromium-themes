@@ -12,7 +12,7 @@ const map = (value) => {
 
 const generate = (key, options) => ({
 	manifest_version: 2,
-	name: ['theme', key].join('-'),
+	name: ['theme', key].join(' '),
 	version: '1',
 	theme: {
 		colors: {
