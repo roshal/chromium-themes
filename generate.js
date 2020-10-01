@@ -21,15 +21,15 @@ const generate = (key, options) => ({
 			frame_incognito: map(options.frame_onactive),
 			frame_incognito_inactive: map(options.frame_inactive),
 			background_tab: map(options.tabs_background),
-			background_tab_inactive: map(options.tabs_background),
-			background_tab_incognito: map(options.tabs_incognito_background),
-			background_tab_incognito_inactive: map(options.tabs_incognito_background),
+			background_tab_inactive: map(options.tabs_inactive_background),
+			background_tab_incognito: map(options.tabs_background),
+			background_tab_incognito_inactive: map(options.tabs_inactive_background),
 			bookmark_text: map(options.toolbar_foreground),
 			button_background: treble(255, 0),
 			tab_background_text: map(options.tabs_foreground),
-			tab_background_text_inactive: map(options.tabs_foreground),
-			tab_background_text_incognito: map(options.tabs_incognito_foreground),
-			tab_background_text_incognito_inactive: map(options.tabs_incognito_foreground),
+			tab_background_text_inactive: map(options.tabs_inactive_foreground),
+			tab_background_text_incognito: map(options.tabs_foreground),
+			tab_background_text_incognito_inactive: map(options.tabs_inactive_foreground),
 			tab_text: map(options.toolbar_foreground),
 			toolbar: map(options.toolbar_background),
 			toolbar_button_icon: map(options.toolbar_icon),
@@ -66,8 +66,8 @@ keys[03] = 'omnibox_foreground'
 keys[04] = 'tabs_background'
 keys[05] = 'tabs_foreground'
 
-keys[06] = 'tabs_incognito_background'
-keys[07] = 'tabs_incognito_foreground'
+keys[06] = 'tabs_inactive_background'
+keys[07] = 'tabs_inactive_foreground'
 
 keys[08] = 'frame_onactive'
 keys[09] = 'frame_inactive'
@@ -80,11 +80,11 @@ keys[12] = 'toolbar_icon'
 // # 00 01 02 03 04 05 06 07 08 09 10 11 12
 const table = {
 	a: [0, 2, 0, 4, 1, 3, 1, 3, 2, 1, 1, 3, 3],
-	b: [1, 3, 1, 5, 2, 4, 2, 4, 2, 1, 1, 3, 4],
+	b: [1, 3, 1, 5, 2, 4, 1, 3, 2, 1, 1, 3, 4],
 	c: [2, 4, 2, 5, 1, 3, 1, 3, 2, 1, 1, 3, 5],
-	d: [3, 0, 3, 0, 4, 1, 4, 1, 2, 1, 1, 3, 0],
-	e: [4, 1, 4, 0, 3, 0, 3, 0, 2, 1, 1, 3, 1],
-	f: [5, 2, 5, 1, 3, 0, 3, 0, 2, 1, 1, 3, 2],
+	d: [3, 0, 3, 0, 2, 4, 1, 3, 2, 1, 1, 3, 0],
+	e: [4, 1, 4, 0, 3, 0, 2, 4, 2, 1, 1, 3, 1],
+	f: [5, 2, 5, 1, 3, 0, 2, 4, 2, 1, 1, 3, 2],
 }
 
 const zip = (keys, values) => {
