@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "json-stringify-pretty-compact": "^2.0.0"
+    "json-stringify-pretty-compact": "^2.0.0",
+    "nodemon": "^2.0.4"
   }
 }

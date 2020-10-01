@@ -22,3 +22,9 @@ grayscale chromium themes
 https://developer.chrome.com/extensions/overview
 
 https://developer.chrome.com/extensions/manifest
+
+## nodemon
+
+```shell
+npx nodemon -w generate.js generate.js a b c d e f
+```
