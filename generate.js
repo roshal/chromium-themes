@@ -18,18 +18,18 @@ const generate = (key, options) => ({
 		"colors": {
 			"frame": map(options.frame_onactive),
 			"frame_inactive": map(options.frame_inactive),
-			"frame_incognito": map(options.frame_incognito_onactive),
-			"frame_incognito_inactive": map(options.frame_incognito_inactive),
-			"background_tab": map(options.tabs_onactive_background),
-			"background_tab_inactive": map(options.tabs_inactive_background),
-			"background_tab_incognito": map(options.tabs_incognito_onactive_background),
-			"background_tab_incognito_inactive": map(options.tabs_incognito_inactive_background),
+			"frame_incognito": map(options.frame_onactive),
+			"frame_incognito_inactive": map(options.frame_inactive),
+			"background_tab": map(options.tabs_background),
+			"background_tab_inactive": map(options.tabs_background),
+			"background_tab_incognito": map(options.tabs_incognito_background),
+			"background_tab_incognito_inactive": map(options.tabs_incognito_background),
 			"bookmark_text": map(options.toolbar_foreground),
 			"button_background": treble(255, 0),
-			"tab_background_text": map(options.tabs_onactive_foreground),
-			"tab_background_text_inactive": map(options.tabs_inactive_foreground),
-			"tab_background_text_incognito": map(options.tabs_incognito_onactive_foreground),
-			"tab_background_text_incognito_inactive": map(options.tabs_incognito_inactive_foreground),
+			"tab_background_text": map(options.tabs_foreground),
+			"tab_background_text_inactive": map(options.tabs_foreground),
+			"tab_background_text_incognito": map(options.tabs_incognito_foreground),
+			"tab_background_text_incognito_inactive": map(options.tabs_incognito_foreground),
 			"tab_text": map(options.toolbar_foreground),
 			"toolbar": map(options.toolbar_background),
 			"toolbar_button_icon": map(options.toolbar_icon),
@@ -54,47 +54,38 @@ const generate = (key, options) => ({
 	},
 	"": null,
 })
-//    +  +  +  +  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?
-// # 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18
-const table = {
-	a: [0, 4, 0, 2, 1, 3, 1, 3, 1, 3, 1, 3, 2, 1, 2, 1, 1, 3, 3],
-	b: [1, 5, 1, 3, 2, 4, 2, 4, 2, 4, 2, 4, 2, 1, 2, 1, 1, 3, 4],
-	c: [2, 5, 2, 4, 1, 3, 2, 4, 1, 3, 2, 4, 2, 1, 2, 1, 1, 3, 5],
-	d: [3, 0, 3, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 1, 2, 1, 1, 3, 0],
-	e: [4, 0, 4, 1, 3, 1, 3, 1, 3, 1, 3, 1, 2, 1, 2, 1, 1, 3, 1],
-	f: [5, 1, 5, 2, 3, 1, 3, 1, 4, 2, 4, 2, 2, 1, 2, 1, 1, 3, 2],
-}
 
 const keys = []
 
-keys[00] = 'omnibox_background'
-keys[01] = 'omnibox_foreground'
+keys[00] = 'toolbar_background'
+keys[01] = 'toolbar_foreground'
 
-keys[02] = 'toolbar_background'
-keys[03] = 'toolbar_foreground'
+keys[02] = 'omnibox_background'
+keys[03] = 'omnibox_foreground'
 
-keys[04] = 'tabs_onactive_background'
-keys[05] = 'tabs_onactive_foreground'
+keys[04] = 'frame_onactive'
+keys[05] = 'frame_inactive'
 
-keys[06] = 'tabs_inactive_background'
-keys[07] = 'tabs_inactive_foreground'
+keys[06] = 'tabs_background'
+keys[07] = 'tabs_foreground'
 
-keys[08] = 'tabs_incognito_onactive_background'
-keys[09] = 'tabs_incognito_onactive_foreground'
+keys[08] = 'tabs_incognito_background'
+keys[09] = 'tabs_incognito_foreground'
 
-keys[10] = 'tabs_incognito_inactive_background'
-keys[11] = 'tabs_incognito_inactive_foreground'
+keys[10] = 'ntp_background'
+keys[11] = 'ntp_foreground'
 
-keys[12] = 'frame_onactive'
-keys[13] = 'frame_inactive'
+keys[12] = 'toolbar_icon'
 
-keys[14] = 'frame_incognito_onactive'
-keys[15] = 'frame_incognito_inactive'
-
-keys[16] = 'ntp_background'
-keys[17] = 'ntp_foreground'
-
-keys[18] = 'toolbar_icon'
+// # 00 01 02 03 04 05 06 07 08 09 10 11 12
+const table = {
+	a: [0, 2, 0, 4, 2, 1, 1, 3, 1, 3, 1, 3, 3],
+	b: [1, 3, 1, 5, 2, 1, 2, 4, 2, 4, 1, 3, 4],
+	c: [2, 4, 2, 5, 2, 1, 1, 3, 1, 3, 1, 3, 5],
+	d: [3, 0, 3, 0, 2, 1, 2, 0, 2, 0, 1, 3, 0],
+	e: [4, 1, 4, 0, 2, 1, 3, 1, 2, 0, 1, 3, 1],
+	f: [5, 2, 5, 1, 2, 1, 3, 1, 2, 0, 1, 3, 2],
+}
 
 const zip = (keys, values) => {
 	const limit = Math.min(keys.length, values.length)
