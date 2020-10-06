@@ -12,7 +12,7 @@ const map = (value) => {
 
 const generate = (key, options) => ({
 	manifest_version: 2,
-	name: ['theme', key].join(' '),
+	name: ['grayscale theme', key].join(' '),
 	version: '1',
 	theme: {
 		colors: {
@@ -105,7 +105,7 @@ const handle = (key) => {
 	}
 	const options = zip(keys, values)
 	const manifest = generate(key, options)
-	const path = `theme-color-${key}/manifest.json`
+	const path = `theme-${key}/manifest.json`
 	const json = json_stringify_pretty_compact(manifest, {
 		indent: '\t',
 	}) + '\n'

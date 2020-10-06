@@ -17,14 +17,20 @@ grayscale chromium themes
 
 [theme-f](https://chrome.google.com/webstore/detail/fghijklmnopqrstuvwxyzabcdefabcde)
 
+## develop
+
+```shell
+npx nodemon -w generate.js -- generate a b c d e f
+```
+
+## produce
+
+```shell
+node generate a b c d e f
+```
+
 ## reference
 
 https://developer.chrome.com/extensions/overview
 
 https://developer.chrome.com/extensions/manifest
-
-## nodemon
-
-```shell
-npx nodemon -w generate.js generate.js a b c d e f
-```
