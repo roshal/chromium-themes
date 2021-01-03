@@ -8,6 +8,7 @@
 !/package.json
 
 !/docs/
+!/shell/
 
 !/theme-a/manifest.json
 !/theme-b/manifest.json
