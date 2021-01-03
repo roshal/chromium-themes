@@ -1,6 +1,8 @@
 
 /*
 
+/*/*.pak
+
 !/.editorconfig
 !/.gitignore
 
@@ -9,10 +11,11 @@
 
 !/docs/
 !/shell/
+!/theme/
 
-!/theme-a/manifest.json
-!/theme-b/manifest.json
-!/theme-c/manifest.json
-!/theme-d/manifest.json
-!/theme-e/manifest.json
-!/theme-f/manifest.json
+!/theme-a/
+!/theme-b/
+!/theme-c/
+!/theme-d/
+!/theme-e/
+!/theme-f/
