@@ -13,7 +13,11 @@ const map = (value) => {
 const generate = (key, options) => ({
 	manifest_version: 2,
 	name: ['grayscale theme', key].join(' '),
+	description: ['grayscale theme extension', '-', 'color variant', key].join(' '),
 	version: '1',
+	icons: {
+		16: 'icons/16.png', 48: 'icons/48.png', 128: 'icons/128.png',
+	},
 	theme: {
 		colors: {
 			frame: map(options.frame_active),
