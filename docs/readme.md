@@ -31,6 +31,6 @@ node generate a b c d e f
 
 ## reference
 
-https://developer.chrome.com/extensions/overview
+https://developer.chrome.com/docs/extensions/mv2/overview/
 
-https://developer.chrome.com/extensions/manifest
+https://developer.chrome.com/docs/extensions/mv2/manifest/
