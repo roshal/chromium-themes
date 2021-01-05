@@ -29,8 +29,8 @@ npx nodemon -w generate.js -- generate a b c d e f
 node generate a b c d e f
 ```
 
-## reference
+## references
 
-https://developer.chrome.com/docs/extensions/mv2/overview/
+[](https://developer.chrome.com/docs/extensions/mv2/overview/)
 
-https://developer.chrome.com/docs/extensions/mv2/manifest/
+[](https://developer.chrome.com/docs/extensions/mv2/manifest/)
