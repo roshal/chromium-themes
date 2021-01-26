@@ -1,7 +1,7 @@
 
 ## chromium themes
 
-grayscale chromium themes
+grayscale themes
 
 ## chrome web store
 
