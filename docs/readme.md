@@ -5,17 +5,17 @@ grayscale chromium themes
 
 ## chrome web store
 
-[theme-a](https://chrome.google.com/webstore/detail/meoofmdfjbnfmaahcobjgblhndicnkkc)
+[grayscale-theme-a](https://chrome.google.com/webstore/detail/meoofmdfjbnfmaahcobjgblhndicnkkc)
 
-[theme-b](https://chrome.google.com/webstore/detail/hhogopapidbkidbecnokjchibokgcehh)
+[grayscale-theme-b](https://chrome.google.com/webstore/detail/hhogopapidbkidbecnokjchibokgcehh)
 
-[theme-c](https://chrome.google.com/webstore/detail/klmacoccldkhbcdmkenjjlhagakfoknc)
+[grayscale-theme-c](https://chrome.google.com/webstore/detail/klmacoccldkhbcdmkenjjlhagakfoknc)
 
-[theme-d](https://chrome.google.com/webstore/detail/gegofpbdcjlnpkpalkpjelbabkdhhcab)
+[grayscale-theme-d](https://chrome.google.com/webstore/detail/gegofpbdcjlnpkpalkpjelbabkdhhcab)
 
-[theme-e](https://chrome.google.com/webstore/detail/aoemklilpaniidbikgkpeojbebecmfcj)
+[grayscale-theme-e](https://chrome.google.com/webstore/detail/aoemklilpaniidbikgkpeojbebecmfcj)
 
-[theme-f](https://chrome.google.com/webstore/detail/glhikdnhmkbjgicehiodllcdidjiggcf)
+[grayscale-theme-f](https://chrome.google.com/webstore/detail/glhikdnhmkbjgicehiodllcdidjiggcf)
 
 ## develop
 
