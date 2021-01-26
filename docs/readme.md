@@ -5,17 +5,17 @@ grayscale chromium themes
 
 ## chrome web store
 
-[theme-a](https://chrome.google.com/webstore/detail/abcdefghijklmnopqrstuvwxyzabcdef)
+[theme-a](https://chrome.google.com/webstore/detail/meoofmdfjbnfmaahcobjgblhndicnkkc)
 
-[theme-b](https://chrome.google.com/webstore/detail/bcdefghijklmnopqrstuvwxyzabcdefa)
+[theme-b](https://chrome.google.com/webstore/detail/hhogopapidbkidbecnokjchibokgcehh)
 
-[theme-c](https://chrome.google.com/webstore/detail/cdefghijklmnopqrstuvwxyzabcdefab)
+[theme-c](https://chrome.google.com/webstore/detail/klmacoccldkhbcdmkenjjlhagakfoknc)
 
-[theme-d](https://chrome.google.com/webstore/detail/defghijklmnopqrstuvwxyzabcdefabc)
+[theme-d](https://chrome.google.com/webstore/detail/gegofpbdcjlnpkpalkpjelbabkdhhcab)
 
-[theme-e](https://chrome.google.com/webstore/detail/efghijklmnopqrstuvwxyzabcdefabcd)
+[theme-e](https://chrome.google.com/webstore/detail/aoemklilpaniidbikgkpeojbebecmfcj)
 
-[theme-f](https://chrome.google.com/webstore/detail/fghijklmnopqrstuvwxyzabcdefabcde)
+[theme-f](https://chrome.google.com/webstore/detail/glhikdnhmkbjgicehiodllcdidjiggcf)
 
 ## develop
 
