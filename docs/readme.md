@@ -32,12 +32,12 @@ node generate a b c d e f
 ## archive
 
 ```shell
-zip --filesync --junk-paths --recurse-paths theme-a.zip theme-a
-zip --filesync --junk-paths --recurse-paths theme-b.zip theme-b
-zip --filesync --junk-paths --recurse-paths theme-c.zip theme-c
-zip --filesync --junk-paths --recurse-paths theme-d.zip theme-d
-zip --filesync --junk-paths --recurse-paths theme-e.zip theme-e
-zip --filesync --junk-paths --recurse-paths theme-f.zip theme-f
+zip --filesync --recurse-paths theme-a.zip theme-a
+zip --filesync --recurse-paths theme-b.zip theme-b
+zip --filesync --recurse-paths theme-c.zip theme-c
+zip --filesync --recurse-paths theme-d.zip theme-d
+zip --filesync --recurse-paths theme-e.zip theme-e
+zip --filesync --recurse-paths theme-f.zip theme-f
 ```
 
 ## references
