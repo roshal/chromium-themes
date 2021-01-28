@@ -13,7 +13,7 @@ const map = (value) => {
 const generate = (key, options) => ({
 	manifest_version: 2,
 	name: ['grayscale theme', key].join(' '),
-	version: '1',
+	version: '1.0.0.1',
 	icons: {
 		16: 'icons/16.png', 48: 'icons/48.png', 128: 'icons/128.png',
 	},
