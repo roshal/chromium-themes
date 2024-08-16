@@ -1,8 +1,8 @@
 {
-	"manifest_version": 2,
-	"name": "grayscale theme",
+	"manifest_version": 3,
+	"name": "graphite",
 	"version": "1.0.0.1",
-	"icons": {"16": "icons/16.png", "48": "icons/48.png", "128": "icons/128.png"},
+	"icons": {"16": "icons/10.png", "48": "icons/30.png", "128": "icons/80.png"},
 	"theme": {
 		"colors": {
 			"frame": [102, 102, 102],
@@ -14,7 +14,7 @@
 			"background_tab_incognito": [102, 102, 102],
 			"background_tab_incognito_inactive": [0, 0, 0],
 			"bookmark_text": [153, 153, 153],
-			"button_background": [255, 0, 0],
+			"button_background": [0, 255, 255],
 			"tab_background_text": [204, 204, 204],
 			"tab_background_text_inactive": [102, 102, 102],
 			"tab_background_text_incognito": [204, 204, 204],

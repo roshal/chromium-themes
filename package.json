@@ -1,6 +1,12 @@
 {
-  "dependencies": {
-    "json-stringify-pretty-compact": "^2.0.0",
-    "nodemon": "^2.0.4"
-  }
+	"dependencies": {
+		"json-stringify-pretty-compact": "^3.0.0"
+	},
+	"devDependencies": {
+		"@swc/cli": "^0.2.3",
+		"@types/node": "^18.19.44",
+		"nodemon": "^3.1.4",
+		"nps": "^5.10.0"
+	},
+	"license": "UNLICENSED"
 }

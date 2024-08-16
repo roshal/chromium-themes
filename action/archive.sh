@@ -1,4 +1,12 @@
 
+#
+#
+#
+
+7z a theme.zip ./theme/*
+
+#
+
 7z a theme-a.zip ./theme-a/*
 7z a theme-b.zip ./theme-b/*
 7z a theme-c.zip ./theme-c/*

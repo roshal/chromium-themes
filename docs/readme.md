@@ -20,16 +20,20 @@ grayscale themes
 ## develop
 
 ```shell
-npx nodemon --watch generate.js -- generate a b c d e f
+npx nodemon
 ```
 
 ## produce
 
 ```shell
-node generate a b c d e f
+node public/generate a b c d e f
 ```
 
 ## archive
+
+```shell
+zip --filesync --recurse-paths theme.zip theme
+```
 
 ```shell
 zip --filesync --recurse-paths theme-a.zip theme-a

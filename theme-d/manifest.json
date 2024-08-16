@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "grayscale theme d",
 	"version": "1.0.0.1",
-	"icons": {"16": "icons/16.png", "48": "icons/48.png", "128": "icons/128.png"},
+	"icons": {"16": "icons/10.png", "48": "icons/30.png", "128": "icons/80.png"},
 	"theme": {
 		"colors": {
 			"frame": [102, 102, 102],

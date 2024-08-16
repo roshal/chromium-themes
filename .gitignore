@@ -1,22 +1,19 @@
 
 /*
 
+!/docs
+
+!/action
+!/images
+!/source
+
+!/theme
+
+!/theme-a
+!/theme-b
+!/theme-c
+!/theme-d
+!/theme-e
+!/theme-f
+
 /*/*.pak
-
-!/.editorconfig
-!/.gitignore
-
-!/generate.js
-!/package.json
-
-!/docs/
-!/images/
-!/scripts/
-!/theme/
-
-!/theme-a/
-!/theme-b/
-!/theme-c/
-!/theme-d/
-!/theme-e/
-!/theme-f/
